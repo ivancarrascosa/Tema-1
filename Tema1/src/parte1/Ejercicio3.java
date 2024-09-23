@@ -18,7 +18,7 @@ public class Ejercicio3 {
 		lectura.nextLine();
 		//Preguntamos al usuario en que año nació
 		System.out.println("¿En qué año naciste?");
-		/Leemos el número introducido en la consola
+		//Leemos el número introducido en la consola
 		añoNacimiento = lectura.nextInt();
 		//Calculamos la edad y la devolvemos al usuario
 		System.out.println("Tu edad es" + " " + (añoActual - añoNacimiento));
