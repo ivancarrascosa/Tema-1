@@ -12,7 +12,7 @@ public class Ejercicio2 {
 		// 2º Leemos el número que se introduce en la consola
 		número = lectura.nextInt();
 		// 3º Le sumamos 1 al número que nos ha dado
-		System.out.println("Tu edad el próximo año será" + número + 1);
+		System.out.println("Tu edad el próximo año será " + ++número);
 		// Cerramos el escáner
 		lectura.close();
 	}
