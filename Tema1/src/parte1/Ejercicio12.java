@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class Ejercicio12 {
 	public static void main(String[] args) {
 		// declaro las variables que voy a usar
+		final float PRECIOPERAS = 1.95f;
+		final float PRECIOMANZANAS = 2.35f;
 		double kgman;
 		double kgper;
 		// Creo el escáner
@@ -16,7 +18,7 @@ public class Ejercicio12 {
 		System.out.println("Dime los kilos de peras vendidos");
 		kgper = reader.nextDouble();
 		// Muestro en la consola el total de euros que se han ganado
-		System.out.println((kgman * 2.35 + kgper * 1.95) + "€");
+		System.out.println((kgman * PRECIOMANZANAS + kgper * PRECIOPERAS) + "€");
 		// cerramos el escáner
 		reader.close();
 
