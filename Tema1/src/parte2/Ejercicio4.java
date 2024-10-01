@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Ejercicio4 {
 
 	public static void main(String[] args) {
-		// Declaro las variables que voy a utilizar
+		// Declaro las variables que voy a utilizar 
 		int a;
 		int b;
 		int c;
