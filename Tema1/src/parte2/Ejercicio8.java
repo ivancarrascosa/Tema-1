@@ -14,7 +14,8 @@ public class Ejercicio8 {
 		metrosLanzados = reader.nextDouble();
 		// Devolvemos la parte entera de la longitud del lanzamiento en centímetros
 		System.out.println("La parte entera de la distancia en centímetros es " + (int) (metrosLanzados * 100) + " cm");
-
+		//cerramos el escáner
+		reader.close();
 	}
 
 }
